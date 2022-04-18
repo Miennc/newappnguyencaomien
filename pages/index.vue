@@ -54,6 +54,7 @@ export default {
       try {
         const resp = await this.$repositories.home.getArticles(this.keyword);
         this.listArticle = resp.data.articles;
+        this.keyword = '';
       } catch (e) {
         console.log(e);
       }
