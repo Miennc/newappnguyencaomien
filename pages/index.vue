@@ -20,13 +20,6 @@
                       </div>
                       <p class="text-sm tracking-normal ">{{ articleItem.content }}</p>
                       <p class="text-sm tracking-normal text-gray-500">{{ articleItem.description }}</p>
-                      <a :href="articleItem.url" class="mt-12 w-full text-center bg-yellow-400 py-2 rounded-lg mr-6">
-                        Đọc tin tức</a>
-                      <div class="space-x-6">
-                        <a :href="'https://www.facebook.com/sharer/sharer.php?u='+ articleItem.url">Share Facebook</a>
-                        <a :href="'http://twitter.com/share?text=text&url=http://'+ articleItem.url+'&hashtags=hashtag1,hashtag2,hashtag3'">Share
-                          Twitter </a>
-                      </div>
                     </div>
                   </div>
                 </div>
